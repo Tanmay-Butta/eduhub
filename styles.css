@@ -1,0 +1,551 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+header h1 {
+  margin: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section p {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form input,
+form select {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
+/* styles.css */
+
+
+
+#meeting {
+  background-color: #e7f1ff;
+  padding: 20px 0;
+}
+
+#meeting h2 {
+  color: #333;
+}
+
+#meeting p {
+  margin-bottom: 20px;
+}
+
+#meeting button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#meeting button:hover {
+  background-color: #0056b3;
+}
+
+.study-materials .material-category {
+  margin-top: 40px;
+}
+
+.study-materials .material-category h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.study-materials .material-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.study-materials .material-category ul li {
+  margin: 10px 0;
+}
+
+
+/* Subscription Section Styles */
+#subscription {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.plan h3 {
+  color: #333;
+}
+
+.plan p {
+  margin: 10px 0;
+}
+
+.plan button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plan button:hover {
+  background-color: #218838;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: sticky;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/* Student Dashboard Styles */
+#student-dashboard {
+  background-color: #fff;
+  padding: 40px 0;
+  border-top: 5px solid #5cb85c; /* Green border for a fresh look */
+}
+
+#student-dashboard .container {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#student-dashboard h2 {
+  color: #5cb85c; /* Green color to match the border */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#student-dashboard p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#student-dashboard form {
+  max-width: 500px;
+  margin: auto;
+}
+
+#student-dashboard input[type='email'],
+#student-dashboard input[type='password'],
+#student-dashboard input[type='text'],
+#student-dashboard input[type='tel'],
+#student-dashboard select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; /* Added to fix padding and border issue */
+}
+
+#student-dashboard button {
+  width: 100%;
+  padding: 15px;
+  background-color: #5cb85c; /* Green button to match the theme */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#student-dashboard button:hover {
+  background-color: #449d44; /* Darker green on hover */
+}
+
+#student-dashboard select {
+  appearance: none; /* To remove default select styling */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23666" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>'); /* Arrow icon */
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  padding-right: 30px; /* Make space for the arrow */
+}
+
+#student-dashboard a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+#student-dashboard a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Mentor Dashboard Styles */
+#mentor-dashboard {
+  background-color: #f0f7ff; /* Light blue background for a calming effect */
+  padding: 40px 0;
+}
+
+#mentor-dashboard .container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  text-align: center; /* Centering the text */
+}
+
+#mentor-dashboard h2 {
+  color: #007bff; /* Blue color for the heading to stand out */
+  margin-bottom: 20px;
+  font-size: 28px; /* Larger font size for the heading */
+}
+
+#mentor-dashboard p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+#mentor-dashboard form {
+  max-width: 400px;
+  margin: auto;
+}
+
+#mentor-dashboard input[type='email'],
+#mentor-dashboard input[type='password'] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#mentor-dashboard button {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff; /* Matching the heading color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#mentor-dashboard button:hover {
+  background-color: #0056b3; /* A darker shade of blue for hover effect */
+}
+
+
+/* Expert Dashboard Styles */
+#expert-dashboard {
+  background-image: url(https://www.freepik.com/free-vector/geometric-shapes-elements-dark-background_6586747.htm#page=2&query=professional%20background&position=2&from_view=keyword&track=ais&uuid=8e3986ee-124c-4f5f-8a30-8537b6c6f8a1); /* Replace with your chosen image URL */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* White text color for better readability on a dark background */
+  padding: 40px 0;
+}
+
+#expert-dashboard .container {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+#expert-dashboard h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#expert-dashboard p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+#expert-dashboard form {
+  margin-bottom: 20px;
+}
+
+#expert-dashboard input[type='email'],
+#expert-dashboard input[type='password'] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+#expert-dashboard button {
+  width: 100%;
+  padding: 15px;
+  background-color: #28a745; /* Green button for a call to action */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#expert-dashboard button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+#expert-dashboard a {
+  color: #0aee3f; /* Green color for links */
+  text-decoration: none;
+}
+
+#expert-dashboard a:hover {
+  text-decoration: underline;
+}
+
+/* Student Dashboard Styles with Movement */
+/* Enhanced Student Dashboard Styles */
+#student-dashboard .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: popIn 0.5s ease forwards;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); opacity: 0; }
+  80% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+#student-dashboard .container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#student-dashboard h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#student-dashboard p {
+  line-height: 1.6;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#student-dashboard form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+#student-dashboard form > * {
+  transform: translateX(-100%);
+  animation: slideIn 0.5s forwards;
+  animation-delay: calc(var(--animation-order) * 0.1s);
+}
+
+@keyframes slideIn {
+  to { transform: translateX(0); }
+}
+
+#student-dashboard input,
+#student-dashboard select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#student-dashboard input:focus,
+#student-dashboard select:focus {
+  border-color: #fff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+#student-dashboard button {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #2193b0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: buttonEnter 0.5s ease forwards;
+}
+
+@keyframes buttonEnter {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+#student-dashboard button:hover {
+  background-color: #4cae4c;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+#student-dashboard a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  animation: linkFadeIn 0.5s ease forwards;
+}
+
+@keyframes linkFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#student-dashboard a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Set the order of appearance for animation */
+#student-dashboard input[name="email"] { --animation-order: 1; }
+#student-dashboard input[name="password"] { --animation-order: 2; }
+#student-dashboard input[name="collegeName"] { --animation-order: 3; }
+#student-dashboard input[name="year"] { --animation-order: 4; }
+#student-dashboard select[name="gender"] { --animation-order: 5; }
+#student-dashboard input[name="phoneNumber"] { --animation-order: 6; }
+#student-dashboard button[type="submit"] { --animation-order: 7; }
+
+
+/* Add this to maintain the rest of your styles */
+
+
+
+
+
